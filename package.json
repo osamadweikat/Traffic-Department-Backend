@@ -1,0 +1,24 @@
+{
+  "name": "graduation_chatgpt",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "node scripts/smoke-test.js",
+    "smoke": "node scripts/smoke-test.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.1",
+    "mysql2": "^3.14.1"
+  }
+}
